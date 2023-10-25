@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  api:
+    restart: always
+    build: 
+      context: .
+      dockerfile: ./docker/local/express/Dockerfile
+    volumes:
+      - /app.node_modules
+      - .:/app
+    ports:
+      - "1997:1997"
+    environment:
+      NODE_ENV: ${NODE_ENV}
+      FORCE_COLOR: 1
+    networks:
+      - invoice
+
+networks:
+  invoice:
+    driver : bridge
