@@ -22,6 +22,7 @@ import UsersList from "./features/users/pages/UsersListPage";
 import DashboardPage from "./pages/DashboardPage";
 import AuthRequired from "./components/AuthRequired";
 
+
 const App = () => {
 	useTitle("MERN Invoice - Home");
 	const { user } = useSelector((state) => state.auth);
