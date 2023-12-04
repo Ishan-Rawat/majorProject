@@ -40,4 +40,5 @@ const VerifiedPage = () => {
 	);
 };
 
-export default VerifiedPage;    
+
+export default VerifiedPage;
