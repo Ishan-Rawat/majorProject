@@ -148,7 +148,7 @@ const CustomerCreateForm = () => {
 														fullWidth
 														error={Boolean(
 															touched.name &&
-																errors.name
+															errors.name
 														)}
 														id="customer-name"
 														type="name"
@@ -176,7 +176,7 @@ const CustomerCreateForm = () => {
 														fullWidth
 														error={Boolean(
 															touched.email &&
-																errors.email
+															errors.email
 														)}
 														id="email-signup"
 														type="email"
@@ -204,7 +204,7 @@ const CustomerCreateForm = () => {
 														fullWidth
 														error={Boolean(
 															touched.phoneNumber &&
-																errors.phoneNumber
+															errors.phoneNumber
 														)}
 														id="customer-phoneNumber"
 														type="phoneNumber"
@@ -236,7 +236,7 @@ const CustomerCreateForm = () => {
 														fullWidth
 														error={Boolean(
 															touched.vatTinNo &&
-																errors.vatTinNo
+															errors.vatTinNo
 														)}
 														id="customer-vatTin"
 														type="vatTinNo"
@@ -267,7 +267,7 @@ const CustomerCreateForm = () => {
 														fullWidth
 														error={Boolean(
 															touched.address &&
-																errors.address
+															errors.address
 														)}
 														id="customer-address"
 														type="address"
@@ -295,7 +295,7 @@ const CustomerCreateForm = () => {
 														fullWidth
 														error={Boolean(
 															touched.city &&
-																errors.city
+															errors.city
 														)}
 														id="customer-city"
 														type="city"
@@ -323,7 +323,7 @@ const CustomerCreateForm = () => {
 														fullWidth
 														error={Boolean(
 															touched.country &&
-																errors.country
+															errors.country
 														)}
 														id="customer-country"
 														type="country"
@@ -355,7 +355,7 @@ const CustomerCreateForm = () => {
 															variant="contained"
 															color="success"
 															size="large"
-															endiIcon={
+															endIcon={
 																<PersonAddAlt1Icon fontSize="large" />
 															}
 															disabled={
